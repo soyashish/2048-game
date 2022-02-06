@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>2048</title>
+	<script src="Library/p5.js"></script>
+	<script src="Library/p5.dom.js"></script>
+	<!-- <script src="config.js"></script> -->
+	<!-- <script src="grid.js"></script> -->
+	<!-- <script src="game.js"></script> -->
+	<script src="sketch.js"></script>
+    <script src="look.js"></script>
+<!--    <script src="Learncon.js"></script>-->
+    
+    
+    <style>
+        body{
+            background:#a35e18;
+            margin:0;
+            
+        }
+        canvas{
+            margin-left:30%;
+            border-radius:6px;
+        }
+        .g_heading h1{
+            font-size:70px;
+            text-align:center;
+            margin:0;
+/*            float:left;*/
+        }
+        .head_2{
+            margin-bottom:90px;
+        }
+        .line{
+            float:left;
+            margin-left:30%;
+        }
+        .line p{
+            font-size:20px;
+            margin-top:30px;
+            letter-spacing:1;
+        }
+        
+        .score{
+            float:right;
+            margin-right:35%;
+            margin-top:12px;
+            background:#83817f;
+            color:rgb(235, 76, 76);
+            padding:10px;
+            border-radius:3px;
+        }
+        .score p{
+            font-size:20px;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .score span{
+            font-size:25px;
+        }
+        .score p{
+/*            float:right;*/
+            margin:0 0 0 20px;
+        }
+        button{
+            border:0;
+            padding:10px;
+            font-size:20px;
+            margin-left:10px;
+            
+        }
+        
+        
+    </style>
+</head>
+    
+	<body>
+        <div class="g_heading">
+            <h1> MY 2048 GAME</h1>
+        </div>
+        <div class="head_2">
+            <div class="line">
+                <p> for win the game find...<b>2048</b></p>
+            </div>
+
+            <div class="score">
+                   <span class="score_h">Score: </span><p id="score_card"></p>
+            </div>
+        </div>
+        <div class="Reset">
+            <div>     
+              <button type="submit">Reset</button>
+            </div>    
+        </div>
+        
+</body>
+    
+    
+</html>
+
